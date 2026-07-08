@@ -1,14 +1,28 @@
+/* styling begins across all pages */
 nav{
     border: 2px solid black;
  }
 
+ nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+ }
  nav ul li{
     list-style: none;
+
  }
+/* styling ends across all pages*/
+
         img{
             width: 150px;px;
             height:200px;
-            border: 4px solid goldenrod;
+            /* border: 4px solid goldenrod; */
             margin: 50px;
         }
 
@@ -34,13 +48,34 @@ nav{
         }
 
          button{
-            color: blue;
-            background-color: blanchedalmond;
+            color: rgb(69, 41, 5);
+            background-color: rgb(178, 235, 216);
             opacity: 8.75;
             width: 150px;
             height: 25px;
             border: 1px solid color(srgb red green blue);
-            border-radius: 20px;
-
-
+            border-radius: 5px;
+            cursor: pointer;
+            corner-shape: 10px;
         }
+        /*styling ends for homepage*/
+
+        /* styling begins for login page*/
+.products{
+    display: flex;
+    margin: 100px 50px;
+    justify-content: space-between;
+    
+}
+
+.products div img{
+    width: 150px;
+    height: auto;
+    
+    
+    
+    
+}
+
+
+        
